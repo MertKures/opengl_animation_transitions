@@ -11,7 +11,7 @@ set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
 
 add_subdirectory(libs/glad)
 add_subdirectory(libs/glfw)
-add_subdirectory(libs/imgui)
+add_subdirectory(libs/imgui_wrapper)
 add_subdirectory(src)
 enable_testing()
 add_subdirectory(tests)
