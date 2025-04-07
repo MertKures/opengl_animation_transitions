@@ -2,3 +2,7 @@
 	path = libs/glfw
 	url = https://github.com/glfw/glfw.git
 	branch = master
+[submodule "libs/imgui"]
+	path = libs/imgui
+	url = https://github.com/ocornut/imgui.git
+	branch = master
