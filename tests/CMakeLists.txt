@@ -1,9 +1,12 @@
-add_executable(${PROJECT_NAME}_tests
-    glad.test.cpp
-)
+# == OpenGL + Glad + GLFW
 
 find_package(OpenGL REQUIRED)
 
-target_link_libraries(${PROJECT_NAME}_tests PRIVATE glad glfw OpenGL::GL)
+add_executable(glad_test
+    glad.test.cpp
+)
 
-add_test(NAME ${PROJECT_NAME}_tests COMMAND ${PROJECT_NAME}_tests)
+target_link_libraries(glad_test PRIVATE glad glfw OpenGL::GL)
+
+add_test(NAME glad_test COMMAND glad_test)
+set_tests_properties(glad_test PROPERTIES LABELS "opengl")
