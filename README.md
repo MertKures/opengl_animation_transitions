@@ -3,4 +3,3 @@ This is a simple desktop application that visualizes a few animation transitions
 
 ## To do
 - Adding a build subtitle in the README that covers the build process.
-- Adding a section that shows how to add glad to the project.
