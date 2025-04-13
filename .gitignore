@@ -33,3 +33,5 @@
 
 # Build related directories
 build
+
+.vscode
