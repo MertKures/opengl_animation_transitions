@@ -3,3 +3,14 @@ This is a simple desktop application that visualizes a few animation transitions
 
 ## To do
 - Adding a build subtitle in the README that covers the build process.
+
+## Animations
+### Slide
+![opengl_slide](docs/gifs/opengl_slide.gif)
+
+### Bounce
+### Zoom
+### Fade
+### Orbit
+### Pulse
+### Jitter
